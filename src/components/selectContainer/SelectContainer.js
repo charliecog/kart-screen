@@ -17,18 +17,22 @@ export default class SelectContainer extends React.Component {
     render() {
         return (
             <div className="selectContainer">
-                <Bookend/>
-                <Character character={Mario}/>
-                <Character character={Peach}/>
-                <Character character={Bowser}/>
-                <Character character={Koopa}/>
-                <Bookend/>
-                <Bookend/>
-                <Character character={Luigi}/>
-                <Character character={Yoshi}/>
-                <Character character={DK}/>
-                <Character character={Toad}/>
-                <Bookend/>
+                <div className="top">
+                    <Bookend side="left"/>
+                    <Character character={Mario}/>
+                    <Character character={Peach}/>
+                    <Character character={Bowser}/>
+                    <Character character={Koopa}/>
+                    <Bookend side="right"/>
+                </div>
+                    <div className="bottom">
+                    <Bookend side="left"/>
+                    <Character character={Luigi}/>
+                    <Character character={Yoshi}/>
+                    <Character character={DK}/>
+                    <Character character={Toad}/>
+                    <Bookend side="right"/>
+                </div>
 
             </div>
         );

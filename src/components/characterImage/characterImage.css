@@ -1,6 +1,5 @@
 .characterImageBox {
     width: 150px;
-    background-color: lightblue;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -14,5 +13,8 @@
 }
 
 .characterImage img {
+    background-color: lightblue;
+    border-color: #646b5d;
+    border-style: inset;
     height: 100px;
 }

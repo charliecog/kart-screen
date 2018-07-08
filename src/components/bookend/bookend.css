@@ -1,5 +1,48 @@
 .bookend {
     width: 50px;
     height: 150px;
-    background-color: pink;
+    background-color: #3f4838;
+}
+
+.screw {
+    position: relative;
+    top: 152px;
+    height: 5px;
+    width: 5px;
+    background-color: #646b5d;
+    box-shadow: 1px 1px;
+}
+
+.gutter {
+    position: relative;
+    top: 40px;
+    width: 20px;
+    height: 100px;
+    background: repeating-linear-gradient(
+            0deg,
+            #0b2323,
+            #0b2323 2px,
+            #627268 4px,
+            #627268 5px
+    );
+}
+
+.gutLeft {
+    left: 20px;
+}
+
+.gutRight {
+    left: 10px;
+}
+
+.scrLeft {
+    left: 8px;
+}
+
+.scrRight {
+    left: 36px;
+}
+
+.bottom .screw {
+    top: 204px;
 }
