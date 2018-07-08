@@ -1,11 +1,18 @@
+.characterImageBox {
+    width: 150px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .characterImage {
-    height: 150px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
 .characterImage img {
-    border: 2px solid black;
     height: 100px;
 }

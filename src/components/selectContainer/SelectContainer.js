@@ -14,11 +14,26 @@ import Toad from '../characterImage/characterAssets/toad.gif';
 import './selectContainer.css';
 
 export default class SelectContainer extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            isActive: null,
+        }
+        this.makeActive = this.makeActive.bind(this)
+    }
+
+    makeActive(){
+        console.log('hellod')
+        this.setState({
+            isActive: 'active',
+        })
+    }
+
     render() {
         return (
             <div className="selectContainer">
                 <Bookend/>
-                <Character character={Mario}/>
+                <Character onClick={this.makeActive} character={Mario}/>
                 <Character character={Peach}/>
                 <Character character={Bowser}/>
                 <Character character={Koopa}/>

@@ -1,0 +1,19 @@
+.chosenPlayer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-align: center;
+    width: 40px;
+    height: 18px;
+    background-color: #211112;
+    color: #211112;
+}
+
+.active {
+    background-color: #fa6704;
+    color: #000000;
+}

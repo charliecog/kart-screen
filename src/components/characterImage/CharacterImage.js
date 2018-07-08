@@ -6,7 +6,9 @@ export default class CharacterImage extends React.Component {
     render() {
         return (
             <div className="characterImage">
-                <img src={this.props.character} alt="character" />
+                <div className="characterImageBox">
+                    <img src={this.props.character} alt="character" />
+                </div>
             </div>
         );
     }
