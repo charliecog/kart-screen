@@ -9,14 +9,14 @@
 .displayContainer {
     width: 500px;
     height: 70px;
-    background-color: blue;
+    background-color: #3f4838;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .textBox {
     width: 350px;
-    height: 40px;
-    background-color: yellow;
+    height: 45px;
+    background-color: #000000;
 }
