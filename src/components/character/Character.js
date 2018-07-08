@@ -11,18 +11,27 @@ export default class Character extends React.Component {
             isActive: null,
         }
         this.makeActive = this.makeActive.bind(this)
+        this.makeInactive = this.makeInactive.bind(this)
     }
 
     makeActive(){
-        console.log('hellod')
         this.setState({
             isActive: 'active',
         })
     }
 
+    makeInactive(){
+        this.setState({
+            isActive: null,
+        })
+    }
+
     render() {
         return (
-            <div onClick={this.makeActive} className="character">
+            <div
+                onMouseEnter={this.makeActive}
+                onMouseLeave={this.makeInactive}
+                className="character">
                 <ChosenPlayer isActive={this.state.isActive}/>
                 <CharacterImage character={this.props.character} />
 
