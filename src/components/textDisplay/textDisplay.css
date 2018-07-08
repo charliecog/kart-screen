@@ -1,0 +1,22 @@
+.textDisplay {
+    height: 70px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.displayContainer {
+    width: 500px;
+    height: 70px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textBox {
+    width: 350px;
+    height: 40px;
+    background-color: yellow;
+}

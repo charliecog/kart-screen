@@ -1,0 +1,10 @@
+body {
+    background-color: grey;
+}
+
+.playerSelector {
+    background-color: #3f4838;
+    height: 600px;
+    width: 1000px;
+    display: flex;
+}
