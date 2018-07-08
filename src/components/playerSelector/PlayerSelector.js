@@ -9,7 +9,7 @@ export default class PlayerSelector extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            displayText: 'Choose your driver...',
+            displayText: 'CHOOSE YOUR DRIVER...',
         }
     }
 
@@ -19,7 +19,6 @@ export default class PlayerSelector extends React.Component {
                 <TextDisplay text={this.state.displayText}/>
                 <ChequeredBanner/>
                 <SelectContainer/>
-
             </div>
         );
     }

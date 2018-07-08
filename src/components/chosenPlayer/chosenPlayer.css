@@ -11,6 +11,8 @@ a {
     height: 18px;
     background-color: #211112;
     color: #211112;
+    border-color: #646b5d;
+    border-style: inset;
 }
 
 .active {

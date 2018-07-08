@@ -13,7 +13,7 @@
 }
 
 .characterImage img {
-    background-color: lightblue;
+    background: linear-gradient(lightblue, lightgreen);
     border-color: #646b5d;
     border-style: inset;
     height: 100px;

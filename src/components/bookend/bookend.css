@@ -6,7 +6,7 @@
 
 .screw {
     position: relative;
-    top: 152px;
+    top: 148px;
     height: 5px;
     width: 5px;
     background-color: #646b5d;
@@ -45,4 +45,24 @@
 
 .bottom .screw {
     top: 204px;
+}
+
+.screw.scrTopL {
+    top: -90px;
+    left: 10px;
+}
+
+.screw.scrTopR {
+    top: -90px;
+    left: 36px;
+}
+
+.bottom .screw.scrTopL {
+    top: 6px;
+    left: 8px;
+}
+
+.bottom .screw.scrTopR {
+    top: 6px;
+    left: 36px;
 }
